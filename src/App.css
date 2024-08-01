@@ -1,0 +1,65 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f8ff;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.app {
+  max-width: 1000px;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #ff6347;
+  margin-bottom: 20px;
+}
+
+/* Search Styles */
+.search {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.search input {
+  width: 80%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+
+.search img {
+  width: 40px;
+  padding: 10px;
+  background: #ff6347;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+/* Container Styles */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* Empty State Styles */
+.empty {
+  text-align: center;
+  padding: 50px 20px;
+}
